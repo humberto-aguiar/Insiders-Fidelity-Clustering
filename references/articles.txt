@@ -1,2 +1,5 @@
 # got some metrics from here
 https://www.shopify.com/enterprise/ecommerce-returns
+
+https://leanexperimentation.com/optimizing-an-e-commerce-with-15-key-metrics/
+Average Order Value
