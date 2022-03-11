@@ -7,3 +7,10 @@ Average Order Value
 # RMF Analysis
 https://clevertap.com/blog/rfm-analysis/
 Took some cluster names from here
+
+# Mann-Whitney
+http://www.inf.ufsc.br/~vera.carmo/Testes_de_Hipoteses/Testes_nao_parametricos_Mann-Whitney.pdf
+
+# permutation_test
+https://rasbt.github.io/mlxtend/user_guide/evaluate/permutation_test/
+https://rcompanion.org/handbook/F_15.html#:~:text=Permutation%20tests%20can%20be%20used,can%20compare%20only%20two%20groups.
