@@ -10,6 +10,10 @@ __pycache__/
 # tokens
 secrets.json
 
+# developig and testing
+*.db
+*report.ipynb
+
 # Distribution / packaging
 .Python
 *.vscode/
