@@ -13,9 +13,12 @@ dt=$(date '+%Y-%m-%d--%H:%M:%S')
 # git push
 git add .
 
-msg=$"dt=$(date '+%Y-%m-%d--%H:%M:%S')"
+#msg=$"commit on: $dt"
+
+msg="add aws log from date: $dt"
 
 git commit -m "$msg"
+
 
 HOME=/home/ubuntu/ git push origin main
 
