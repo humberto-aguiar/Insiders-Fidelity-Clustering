@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
 # executing aws file:
-run_script_path="/home/ubuntu/project/Insiders-Loyalty-Program/src/"
+run_script_path="/home/ubuntu/project/Insiders-Loyalty-Program/src//home/ubuntu/project/Insiders-Loyalty-Program/src/run_deploy_aws.sh"
 
-$run_script_path run_deploy_aws.sh
+$run_script_path
 
 # date
 dt=$(date '+%Y-%m-%d--%H:%M:%S')
