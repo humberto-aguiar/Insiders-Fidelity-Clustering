@@ -9,6 +9,7 @@ __pycache__/
 
 # tokens
 secrets.json
+secrets*.json
 
 # developig and testing
 *.db
