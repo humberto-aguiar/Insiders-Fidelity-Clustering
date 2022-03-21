@@ -1,5 +1,10 @@
 #!/usr/bin/bash
 
+# executing aws file:
+run_script_path="/home/ubuntu/project/Insiders-Loyalty-Program/src/"
+
+$run_script_path run_deploy_aws.sh
+
 # date
 dt=$(date '+%Y-%m-%d--%H:%M:%S')
 
@@ -13,14 +18,8 @@ dt=$(date '+%Y-%m-%d--%H:%M:%S')
 # git push
 git add .
 
-#msg=$"commit on: $dt"
-
 msg="add aws log from date: $dt"
 
 git commit -m "$msg"
 
-
 HOME=/home/ubuntu/ git push origin main
-
-
-# testing if this will work
