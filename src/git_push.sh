@@ -17,4 +17,4 @@ git commit -m 'update log from aws on date: $date'
 
 HOME=/home/ubuntu/ git push origin main
 
-#
+
