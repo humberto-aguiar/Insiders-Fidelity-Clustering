@@ -1,3 +1,5 @@
+#!usr/bin/bash
+
 # specifying date
 dt=$(date '+%Y-%m-%d--%H:%M:%S')
 
@@ -7,7 +9,7 @@ path_file="/home/ubuntu/project/Insiders-Loyalty-Program/src/notebooks/c15-deplo
 path_log="/home/ubuntu/project/Insiders-Loyalty-Program/src/logs/c15-deploy-3-date:$dt.ipynb"
 
 # runing papermill deploy file on log path
-$path_papermill $path_file $path_log
+#$path_papermill $path_file $path_log
 
 # date
 dt=$(date '+%Y-%m-%d--%H:%M:%S')
