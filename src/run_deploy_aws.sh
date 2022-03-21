@@ -8,3 +8,17 @@ path_log="/home/ubuntu/project/Insiders-Loyalty-Program/src/logs/c15-deploy-3-da
 
 # runing papermill deploy file on log path
 $path_papermill $path_file $path_log
+
+# date
+dt=$(date '+%Y-%m-%d--%H:%M:%S')
+
+#$path_papermill $path_file $path_log
+
+# git push
+git add .
+
+msg="add aws log from date: $dt"
+
+git commit -m "$msg"
+
+HOME=/home/ubuntu/ git push origin main
