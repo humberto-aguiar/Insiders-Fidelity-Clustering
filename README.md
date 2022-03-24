@@ -2,7 +2,7 @@
 
 ## Selecting Customers for a Loyalty Program.
 
-![](./reports/figures/clustering.jpg)
+<img src="./reports/figures/clustering.jpg" alt="drawing" width="500"/>
 
 #### This project was authored by Humberto Aguiar.
 
@@ -21,8 +21,6 @@ Moreover, to view the deployment in AWS cloud part, the latest CRISP cycle noteb
 If you would wish, you may interact with the public view of the dashboard I designed in the deployment stage:
 
 [<img alt = "Metabase" src="https://www.vectorlogo.zone/logos/metabase/metabase-ar21.svg">](https://insiders-project-metabase.herokuapp.com/public/dashboard/1b6ee0b6-54ad-480d-84e0-48db2d6c5637)
-
-[<img alt = "Metabase" width="140" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXqxkcy-JLeDqAi2krmNWJ55LmQKXfcSsKHouWHt1dCWZLn9uYEFnNkz--mRAh6WTz9b8&usqp=CAU ">](https://insiders-project-metabase.herokuapp.com/public/dashboard/1b6ee0b6-54ad-480d-84e0-48db2d6c5637)
 
 # Business Assumptions.
 - There are customers with similar spending habits, and customers can therefore be segmented.
@@ -62,7 +60,7 @@ In general terms, it can be summarized as:
 
 **Step 11. Deploy Model:** Make the model accessible for others using some cloud service 
 
-# 4. Top 3 Data Insights
+# Top 3 Data Insights
 
 **Customers buy 10% more on the first half of the month (H3)**
 **False** There is no significant difference between gross revenue in the first and second halves of the month
