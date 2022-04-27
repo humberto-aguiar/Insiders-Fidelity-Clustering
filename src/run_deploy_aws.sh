@@ -8,7 +8,7 @@ dt=$(date '+%Y-%m-%d--%H:%M:%S')
 path_papermill="/home/ubuntu/.pyenv/versions/3.8.0/envs/insiders_deploy/bin/papermill"
 
 # lastest file to run
-file_to_execute="c17-deploy-v1.ipynb"
+file_to_execute="c18-deploy-v2.ipynb"
 
 # paths
 path_file="/home/ubuntu/project/Insiders-Loyalty-Program/src/notebooks/$file_to_execute"

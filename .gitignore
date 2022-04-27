@@ -10,6 +10,7 @@ __pycache__/
 # tokens
 secrets.json
 secrets*.json
+/src/secrets/*
 
 # developig and testing
 *.db

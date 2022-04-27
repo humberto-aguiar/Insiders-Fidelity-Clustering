@@ -20,7 +20,8 @@ Moreover, to view the deployment in AWS cloud part, the latest CRISP cycle noteb
 
 If you would wish, you may interact with the public view of the dashboard I designed in the deployment stage:
 
-[<img alt = "Metabase" src="https://www.vectorlogo.zone/logos/metabase/metabase-ar21.svg">](https://insiders-project-metabase.herokuapp.com/public/dashboard/1b6ee0b6-54ad-480d-84e0-48db2d6c5637)
+[<img alt = "Metabase" src="https://www.vectorlogo.zone/logos/metabase/metabase-ar21.svg">](http://insiders-project-metabase-dash.herokuapp.com/public/dashboard/3300265c-e4ae-4a82-ab54-1b5de68e19d2)
+
 
 # Business Assumptions.
 - There are customers with similar spending habits, and customers can therefore be segmented.
@@ -140,9 +141,8 @@ The deployment architecture I designed is the following:
 
 Below is the link to the public view of the Metabase dashboard I designed.
 
-[<img alt = "Metabase" src="https://www.vectorlogo.zone/logos/metabase/metabase-ar21.svg">](https://insiders-project-metabase.herokuapp.com/public/dashboard/1b6ee0b6-54ad-480d-84e0-48db2d6c5637)
+[<img alt = "Metabase" src="https://www.vectorlogo.zone/logos/metabase/metabase-ar21.svg">](http://insiders-project-metabase-dash.herokuapp.com/public/dashboard/3300265c-e4ae-4a82-ab54-1b5de68e19d2)
 
-# Conclusions
 Clustering is a very challenging machine learning application (much more than I thought) since there is no "right answer".
 Business knowledge must be used to evaluate results because good cluster separation doesn't imply good results.
 It was possible to find a good separation in this case only by using a combination of ensemble and embedding methods (simply by rescaling data didn't give such good results)
